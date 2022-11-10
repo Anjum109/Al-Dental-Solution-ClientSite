@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../context/AuthProvider/AuthProvider';
 import useTitle from '../../../hooks/useTitle';
 import AllServiceCards from './AllServiceCards';
 
 
 const AllServices = () => {
     const [allServices, setServices] = useState([]);
+    // const { loading } = useContext(AuthContext);
+
     useTitle('Services');
 
     useEffect(() => {
@@ -14,6 +17,9 @@ const AllServices = () => {
             .then(data => setServices(data))
     }, [])
 
+    // if (loading) {
+    //     return <button className="btn btn-square loading" animation='border' variant='primary' />
+    // }
 
     return (
         <div>

@@ -6,6 +6,10 @@ import useTitle from '../../../hooks/useTitle';
 const Register = () => {
 
     const { createUser, updateUserProfile } = useContext(AuthContext);
+    const [passwordError, setPasswordError] = useState("");
+    const [success, setSuccess] = useState(false);
+    const [accepted, setAccepted] = useState(false);
+
     const [review, setreview] = useState();
     const navigate = useNavigate();
     const location = useLocation();
@@ -21,13 +25,31 @@ const Register = () => {
         const photoURL = form.photoURL.value;
         const email = form.email.value;
         const password = form.password.value;
+        const confirm = form.confirm.value;
         console.log(name, photoURL, email, password);
+
+
+
+        if (password.length < 6) {
+            setPasswordError("Please should be at least 6 characters");
+            return;
+        }
+        if (!/(?=.[!@#$%&^])/.test(password)) {
+            setPasswordError("Please add at least one special character");
+            return;
+        }
+        if (password !== confirm) {
+            setPasswordError("password and confirm password did not match");
+            return;
+        }
+        setPasswordError("");
 
         createUser(email, password)
             .then(result => {
                 const user = result.user;
                 console.log(user);
                 form.reset();
+                setSuccess(true);
                 handleUpdateUserProfile(name, photoURL)
                 navigate(from, { replace: true });
             })
@@ -45,6 +67,7 @@ const Register = () => {
             .then(() => { })
             .catch(error => console.error(error));
     }
+
 
     return (
         <div>
@@ -80,7 +103,22 @@ const Register = () => {
                                 </label>
                                 <input name="password" type="password" placeholder="Enter Your Password" className="input input-bordered" />
                             </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Confirm Password</span>
+                                </label>
+                                <input
+                                    type="password"
+                                    placeholder="Confirm Password"
+                                    name="confirm"
+                                    className="input input-bordered"
+                                />
+                            </div>
                             <div className="form-control mt-6">
+                                <p className="text-purple-800">{passwordError}</p>
+                                {success && (
+                                    <p className="text-success text-2xl">User created successfully</p>
+                                )}
                                 <button className="button-86 ">SignIn</button>
                             </div>
                             <div className='button-83'>

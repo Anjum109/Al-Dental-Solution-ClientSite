@@ -37,7 +37,7 @@ const Header = () => {
     </>
 
     return (
-        <div className="navbar h-20 bg-neutral-700">
+        <div className="navbar h-20 bg-neutral-500">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -51,7 +51,7 @@ const Header = () => {
                     <img className='w-10 mr-5' src={logo} alt="" />AM Dental Solution
                 </Link>
             </div>
-            <div className="navbar-end hidden lg:flex">
+            <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {menuItems}
                 </ul>

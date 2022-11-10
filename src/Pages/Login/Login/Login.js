@@ -15,7 +15,10 @@ const Login = () => {
     const location = useLocation();
     useTitle('Login');
 
+
     const from = location.state?.from?.pathname || '/';
+
+
 
     const handleSubmit = event => {
         event.preventDefault();
@@ -34,7 +37,9 @@ const Login = () => {
                 console.error(error)
                 setError(error.message);
             })
+
     }
+
 
     const googleProvider = new GoogleAuthProvider();
 
@@ -46,25 +51,14 @@ const Login = () => {
             })
     }
 
-    const githubProvider = new GithubAuthProvider();
 
-    const handleGithubSignIn = () => {
-        providerLogin(githubProvider)
-            .then(result => {
-                const user = result.user;
-                console.log(user)
-            })
-            .catch(error => {
-                console.error(error)
-            })
-    }
 
     return (
         <div className="hero min-h-screen bg-slate-100">
             <div className="hero-content flex-col">
                 <div className="text-center lg:text-left">
                     <h1 className="text-center text-5xl font-bold">Login now!</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <p className="py-6"></p>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <form onSubmit={handleSubmit} className="card-body">
@@ -99,7 +93,6 @@ const Login = () => {
                 <div>
                     <button onClick={handleGoogleSignIn} className='button-74'>Log in With Google</button>
 
-                    <button onClick={handleGithubSignIn} className='button-74'>Log in With Github</button>
                 </div>
             </div>
         </div>

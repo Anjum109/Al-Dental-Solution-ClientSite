@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 import useTitle from '../../hooks/useTitle';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -9,6 +10,7 @@ const AddServices = () => {
 
     const { user } = useContext(AuthContext);
     useTitle('AddService');
+    const notify = () => toast("Successfully added")
 
     const handleAddService = event => {
         event.preventDefault();
@@ -36,16 +38,7 @@ const AddServices = () => {
             .then(data => {
                 console.log(data)
                 if (data.acknowledged) {
-                    toast('🦄 Wow so easy!', {
-                        position: "top-center",
-                        autoClose: 5000,
-                        hideProgressBar: false,
-                        closeOnClick: true,
-                        pauseOnHover: true,
-                        draggable: true,
-                        progress: undefined,
-                        theme: "light",
-                    });
+
                     form.reset();
                 }
             })
@@ -56,38 +49,40 @@ const AddServices = () => {
 
     return (
         <div>
-            <div className='mt-12 p-5 grid grid-cols-1 gap-6'>
-                <form onSubmit={handleAddService}>
+            <div className='mt-12 bg-neutral-600 p-5 grid grid-cols-1 gap-6'>
+                <h1 className='text-4xl text-center mb-12'>Add Your New Service</h1>
+
+                <form className='lg:mx-28' onSubmit={handleAddService}>
                     <input type="text"
                         name="Service_name"
                         placeholder="Service name" defaultValue=""
-                        className="input input-bordered w-full " />
+                        className="input input-bordered w-full mb-5" />
                     <input name="title"
                         type="text"
                         placeholder="Enter the title"
-                        className="input input-bordered w-full" />
+                        className="mb-5 input input-bordered w-full" />
                     <input name="Total_Cost"
                         type="text"
                         placeholder="Enter the Total_Cost"
-                        className="input input-bordered w-full" />
+                        className="mb-5 input input-bordered w-full" />
                     <input name="image_url"
                         type="text"
                         placeholder="Thumble URL Link"
-                        className="input input-bordered w-full" />
+                        className="input mb-5 input-bordered w-full" />
                     <input name="structure_img"
                         type="text"
                         placeholder="Website URL link"
-                        className="input input-bordered w-full" />
+                        className="input mb-5 input-bordered w-full" />
                     <textarea name="description"
                         type="text"
                         placeholder="Type Service description"
-                        className="input input-bordered w-full h-36" />
+                        className="input mb-5 input-bordered w-full h-36" />
                     <textarea name="BenefitsAndRisks"
                         type="text"
                         placeholder="Type the service BenefitsAndRisks"
-                        className="input input-bordered w-full h-36" />
-                    <div>                    <input type="submit" className="input input-bordered w-full" value="Add Service">
-                    </input>    <ToastContainer /></div>
+                        className="input mb-5 input-bordered w-full h-36" />
+                    <div>                    <button type="submit" onClick={notify} className="input text-black input-bordered w-full" value="Add Service">
+                        Submit</button>    <ToastContainer /></div>
 
                 </form>
             </div>

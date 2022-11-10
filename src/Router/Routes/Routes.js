@@ -7,6 +7,7 @@ import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login/Login";
 import Register from "../../Pages/Login/Register/Register";
 import MyReviews from "../../Pages/MyReviews/MyReviews";
+import Terms from "../../Pages/Others/Terms";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -49,6 +50,9 @@ const router = createBrowserRouter([
             {
                 path: '/addServices',
                 element: <AddServices></AddServices>
+            }, {
+                path: '/terms',
+                element: <Terms></Terms>
             }
         ]
     }

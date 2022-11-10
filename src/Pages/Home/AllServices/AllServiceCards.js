@@ -10,7 +10,7 @@ const AllServiceCards = ({ service }) => {
             <figure>
                 <PhotoProvider>
                     <PhotoView src={image_url}>
-                        <img src={image_url} alt="Shoes" />
+                        <img src={image_url} alt="" />
                     </PhotoView>
                 </PhotoProvider>
             </figure>

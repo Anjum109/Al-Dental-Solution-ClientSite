@@ -36,8 +36,12 @@ const MyReviews = () => {
 
     return (
         <div>
-            <h1>You have total {myReviews.length} Reviews.</h1>
-            <div className='mt-5 mx-12'>
+            <h1>
+                {
+                    myReviews.length
+                }
+            </h1>
+            <div className='mt-5 mx-12 lg:mx-28'>
                 {
                     myReviews.map(myAllReviews => <MyReviewList
                         key={myAllReviews._id}
@@ -46,7 +50,7 @@ const MyReviews = () => {
                     ></MyReviewList>)
                 }
             </div>
-        </div>
+        </div >
     );
 };
 
