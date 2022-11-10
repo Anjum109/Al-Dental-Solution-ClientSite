@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../context/AuthProvider/AuthProvider';
+import useTitle from '../../../hooks/useTitle';
 
 const Register = () => {
 
@@ -8,6 +9,7 @@ const Register = () => {
     const [review, setreview] = useState();
     const navigate = useNavigate();
     const location = useLocation();
+    useTitle('Register');
 
     const from = location.state?.from?.pathname || '/';
 

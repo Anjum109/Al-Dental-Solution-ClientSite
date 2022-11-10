@@ -5,7 +5,12 @@
 
  Project Features and functionalities:
   * i used react js and also use react tailwind & daisy UI for desigining sector.
-  * Used 
+  * Use a Navbar and a Slider for Header Section.
+  * After that i create a server for post data in MongoDb.
+  * Then i fetch all the services data.
+  * i also use  react-photo-view  for photo viewing.
+  * i use firebase authentication for email,password and googleLogin.
+  
 
 
 

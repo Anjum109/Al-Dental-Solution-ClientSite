@@ -1,13 +1,14 @@
 import React, { useContext } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
+import useTitle from '../../hooks/useTitle';
 
 
 
 const AddServices = () => {
 
     const { user } = useContext(AuthContext);
-
+    useTitle('AddService');
 
     const handleAddService = event => {
         event.preventDefault();
