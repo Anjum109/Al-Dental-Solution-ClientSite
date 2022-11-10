@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+ # Project Name: AM-Dental-Solution
+ Client side Github Link:
+ Server side Github Link:
+ Live Site Link:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Project Features and functionalities:
+  * i used react js and also use react tailwind & daisy UI for desigining sector.
+  * Used 
+
+
+
+
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -67,4 +78,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) --> -->
