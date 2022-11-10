@@ -5,7 +5,7 @@ import useTitle from '../../../hooks/useTitle';
 
 const Register = () => {
 
-    const { createUser, updateUserProfile } = useContext(AuthContext);
+    const { createUser, updateUserProfile, loading } = useContext(AuthContext);
     const [passwordError, setPasswordError] = useState("");
     const [success, setSuccess] = useState(false);
     const [accepted, setAccepted] = useState(false);
@@ -17,6 +17,9 @@ const Register = () => {
 
     const from = location.state?.from?.pathname || '/';
 
+    if (loading) {
+        return <button className="btn btn-square loading" animation='border' variant='primary' />
+    }
 
     const handleSubmit = event => {
         event.preventDefault();

@@ -36,9 +36,9 @@ const MyReviews = () => {
 
     return (
         <div>
-            <h1>
+            <h1 className='text-5xl text-center'>
                 {
-                    myReviews.length
+                    myReviews.length > 0 ? <p>You have total {myReviews.length} reviews</p> : <p>No Reviews available</p>
                 }
             </h1>
             <div className='mt-5 mx-12 lg:mx-28'>

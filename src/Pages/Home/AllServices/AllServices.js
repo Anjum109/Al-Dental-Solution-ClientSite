@@ -7,19 +7,23 @@ import AllServiceCards from './AllServiceCards';
 
 const AllServices = () => {
     const [allServices, setServices] = useState([]);
-    // const { loading } = useContext(AuthContext);
+    const [loading, setLoading] = useState(true);
+
 
     useTitle('Services');
 
     useEffect(() => {
         fetch('http://localhost:5000/services')
             .then(res => res.json())
-            .then(data => setServices(data))
+            .then(data => {
+                setServices(data)
+                setLoading(false)
+            })
     }, [])
 
-    // if (loading) {
-    //     return <button className="btn btn-square loading" animation='border' variant='primary' />
-    // }
+    if (loading) {
+        return <button className="btn btn-square loading" animation='border' variant='primary' />
+    }
 
     return (
         <div>

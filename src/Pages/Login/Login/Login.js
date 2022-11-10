@@ -10,7 +10,9 @@ import './Login.css'
 
 const Login = () => {
     const [error, setError] = useState('');
-    const { providerLogin, signIn } = useContext(AuthContext);
+    const { providerLogin, signIn, loading } = useContext(AuthContext);
+
+
     const navigate = useNavigate();
     const location = useLocation();
     useTitle('Login');
@@ -18,7 +20,9 @@ const Login = () => {
 
     const from = location.state?.from?.pathname || '/';
 
-
+    if (loading) {
+        return <button className="btn btn-square loading" animation='border' variant='primary' />
+    }
 
     const handleSubmit = event => {
         event.preventDefault();

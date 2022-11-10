@@ -1,7 +1,8 @@
 import React from 'react';
 
 const AllReviewsList = ({ reviews }) => {
-    const { patient, photoURL, review } = reviews;
+    const { patient, photoURL, review, time } = reviews;
+
     return (
         <div>
 
@@ -10,6 +11,7 @@ const AllReviewsList = ({ reviews }) => {
                     <figure><img className='px-5' src={photoURL} alt="" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Name:{patient}</h2>
+                        <p>{new Date(time).toDateString()}</p>
                         <h5 className="card-title">{review}</h5>
 
                     </div>

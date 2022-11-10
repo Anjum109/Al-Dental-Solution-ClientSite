@@ -20,7 +20,7 @@ const ServiceCard = ({ service }) => {
                 <h2 className="card-title">{Service_name}</h2>
                 <p className='text-2xl text-orange-600 font-semibold'>Total Cost: ${Total_Cost}</p>
                 <div className="card-actions justify-end">
-                    <p>{description.slice(0, 100)}</p>
+                    <p className='text-justify'>{description.slice(0, 100)}</p>
                     <Link to={`/services/${_id}`}>
                         <button className="button-80">Show Details</button>
                     </Link>

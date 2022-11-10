@@ -34,7 +34,9 @@ const DetailsOfService = () => {
             photoURL,
             review,
             email,
-        }
+            time: new Date()
+        };
+
         fetch('http://localhost:5000/reviews', {
             method: 'POST',
             headers: {
@@ -63,7 +65,7 @@ const DetailsOfService = () => {
                 <figure className="px-10 pt-10">
                     <img src={image_url} alt="Shoes" className="rounded-xl" />
                 </figure>
-                <p className='pt-5 lg:pt-12'>{description}</p>
+                <p className='pt-5 lg:pt-12 text-justify'>{description}</p>
                 <figure className="px-10 pt-10">
                     <img src={structure_img} alt="Shoes" className="rounded-xl" />
                 </figure>
@@ -98,7 +100,7 @@ const DetailsOfService = () => {
                     </form>
                 </div>
                 <div>
-                    <AllReview></AllReview>
+                    <AllReview serviceID={_id}></AllReview>
                 </div>
             </div>
         </div>

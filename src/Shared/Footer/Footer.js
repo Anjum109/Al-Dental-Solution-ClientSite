@@ -4,8 +4,8 @@ import logo from '../../images/logo/logo.jpg'
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer p-10 bg-base-200 text-base-content">
+        <div className='mt-12 footer p-10 bg-neutral text-neutral-content'>
+            <footer className="footer p-10 text-base-content text-white">
                 <div>
                     <span className="footer-title">Services</span>
                     <Link className="link link-hover">Dental Implant</Link>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
 
             </footer>
-            <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+            <footer className="text-white footer p-10 bg-neutral text-neutral-content">
                 <div className="items-center grid-flow-col">
                     <img width="50" src={logo} height="24" alt="" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd" className="fill-current mr-5"></img>
                     <p>AM Dental Solution <br />Providing reliable Dental Treatement since 2018</p>
