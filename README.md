@@ -1,6 +1,7 @@
  # Project Name: AM-Dental-Solution
- Client side Github Link:
- Server side Github Link:
+ Client side Github Link:https://github.com/Porgramming-Hero-web-course/b6a11-service-review-client-side-Anjum109
+ 
+ Server side Github Link: https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-Anjum109
  Live Site Link:
 
  Project Features and functionalities:
@@ -10,7 +11,7 @@
   * Then i fetch all the services data.
   * i also use  react-photo-view  for photo viewing.
   * i use firebase authentication for email,password and googleLogin.
-  
+
 
 
 

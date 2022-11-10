@@ -27,7 +27,7 @@ const AddServices = () => {
         const service = {
             Service_name, title, image_url, structure_img, description, BenefitsAndRisks, Total_Cost
         }
-        fetch('http://localhost:5000/services', {
+        fetch('https://al-dental-solution-server.vercel.app/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

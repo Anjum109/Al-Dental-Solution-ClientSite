@@ -5,7 +5,7 @@ const AllReview = ({ serviceID }) => {
     const [showAllTheReviews, setShowAllTheReviews] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/reviews/${serviceID}`)
+        fetch(`https://al-dental-solution-server.vercel.app/reviews/${serviceID}`)
             .then(res => res.json())
             .then(data => setShowAllTheReviews(data))
     }, [showAllTheReviews]);
