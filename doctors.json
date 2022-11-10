@@ -1,0 +1,152 @@
+[
+    {
+        "Service_name": "Dental Implant",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "01",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.fda.gov/files/dental-implant-system.jpg",
+        "image_url": "https://www.vervedental.com.au/wp-content/uploads/2022/05/Dental-implant.jpeg",
+        "description": "When a tooth is lost due to injury or disease, a person can experience complications such as rapid bone loss, defective speech, or changes to chewing patterns that result in discomfort. Replacing a lost tooth with a dental implant can significantly improve the patient's quality of life and health. Dental implant systems consist of a dental implant body and dental implant abutment and may also include an abutment fixation screw. The dental implant body is surgically inserted in the jawbone in place of the tooth's root. The dental implant abutment is usually attached to the implant body by the abutment fixation screw and extends through gums into the mouth to support the attached artificial teeth.",
+        "BenefitsAndRisks": "Benefits and Risks Dental implants can significantly improve the quality of life and the health of a person who needs them. However, complications may sometimes occur. Complications can occur soon after dental implant placement or much later. Some complications result in implant failure (usually defined as implant looseness or loss). Implant failure can result in the need for another surgical procedure to fix or replace the implant system."
+    },
+    {
+        "Service_name": "Aesthetic Restoration",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "02",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "image_url": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "description": "Material used to make aesthetic fillings or direct aesthetic restorations is called composite or popularly aesthetic filling. Missing dentine and enamel are recreated with it. By its strength the composite equals to amalgam fillings, it is resistant to wear, releases fluoride preventing from further formation of caries lesions. Direct aesthetic restoration we offer at VivaDens center is one of the most preserving methods of teeth restoration. When making direct aesthetic restoration natural tooth tissues are preserved to the maximum, deep cut preparation is not needed, teeth remain alive, gingiva is not damaged, natural teeth layers are recreated, their translucency and form. Natural tooth is an optimal substance guaranteeing stability, resistance and compatibility with surrounding gingiva and bone structure. Direct aesthetic restorations are done with the precision of fine jeweler,  layer by layer  exactly the same way as teeth tissues developed during evolution, the small details and depth of color are imitated. Usually clients are very satisfied, because that it the most preserving tooth structure restoration method.",
+        "BenefitsAndRisks": "Improve functionality for eating and speaking. Distribute the force of your bite, helping you avoid jaw pain. Protect your teeth from shifting into gaps left by missing teeth. Keep your bite properly aligned for better biting and chewing."
+    },
+    {
+        "Service_name": "Reimplantation of avulsed tooth",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "03",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "image_url": "http://www.adcic.co.uk/wp-content/uploads/2015/12/aestheticrestoration.jpg",
+        "description": "Material used to make aesthetic fillings or direct aesthetic restorations is called composite or popularly aesthetic filling. Missing dentine and enamel are recreated with it. By its strength the composite equals to amalgam fillings, it is resistant to wear, releases fluoride preventing from further formation of caries lesions. Direct aesthetic restoration we offer at VivaDens center is one of the most preserving methods of teeth restoration. When making direct aesthetic restoration natural tooth tissues are preserved to the maximum, deep cut preparation is not needed, teeth remain alive, gingiva is not damaged, natural teeth layers are recreated, their translucency and form. Natural tooth is an optimal substance guaranteeing stability, resistance and compatibility with surrounding gingiva and bone structure. Direct aesthetic restorations are done with the precision of fine jeweler,  layer by layer  exactly the same way as teeth tissues developed during evolution, the small details and depth of color are imitated. Usually clients are very satisfied, because that it the most preserving tooth structure restoration method.",
+        "BenefitsAndRisks": "Improve functionality for eating and speaking. Distribute the force of your bite, helping you avoid jaw pain. Protect your teeth from shifting into gaps left by missing teeth. Keep your bite properly aligned for better biting and chewing."
+    },
+    {
+        "Service_name": "Surgical Extraction",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "02",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "image_url": "http://www.adcic.co.uk/wp-content/uploads/2015/12/aestheticrestoration.jpg",
+        "description": "Material used to make aesthetic fillings or direct aesthetic restorations is called composite or popularly aesthetic filling. Missing dentine and enamel are recreated with it. By its strength the composite equals to amalgam fillings, it is resistant to wear, releases fluoride preventing from further formation of caries lesions. Direct aesthetic restoration we offer at VivaDens center is one of the most preserving methods of teeth restoration. When making direct aesthetic restoration natural tooth tissues are preserved to the maximum, deep cut preparation is not needed, teeth remain alive, gingiva is not damaged, natural teeth layers are recreated, their translucency and form. Natural tooth is an optimal substance guaranteeing stability, resistance and compatibility with surrounding gingiva and bone structure. Direct aesthetic restorations are done with the precision of fine jeweler,  layer by layer  exactly the same way as teeth tissues developed during evolution, the small details and depth of color are imitated. Usually clients are very satisfied, because that it the most preserving tooth structure restoration method.",
+        "BenefitsAndRisks": "Improve functionality for eating and speaking. Distribute the force of your bite, helping you avoid jaw pain. Protect your teeth from shifting into gaps left by missing teeth. Keep your bite properly aligned for better biting and chewing."
+    },
+    {
+        "Service_name": "Root Canel",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "02",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "image_url": "http://www.adcic.co.uk/wp-content/uploads/2015/12/aestheticrestoration.jpg",
+        "description": "Material used to make aesthetic fillings or direct aesthetic restorations is called composite or popularly aesthetic filling. Missing dentine and enamel are recreated with it. By its strength the composite equals to amalgam fillings, it is resistant to wear, releases fluoride preventing from further formation of caries lesions. Direct aesthetic restoration we offer at VivaDens center is one of the most preserving methods of teeth restoration. When making direct aesthetic restoration natural tooth tissues are preserved to the maximum, deep cut preparation is not needed, teeth remain alive, gingiva is not damaged, natural teeth layers are recreated, their translucency and form. Natural tooth is an optimal substance guaranteeing stability, resistance and compatibility with surrounding gingiva and bone structure. Direct aesthetic restorations are done with the precision of fine jeweler,  layer by layer  exactly the same way as teeth tissues developed during evolution, the small details and depth of color are imitated. Usually clients are very satisfied, because that it the most preserving tooth structure restoration method.",
+        "BenefitsAndRisks": "Improve functionality for eating and speaking. Distribute the force of your bite, helping you avoid jaw pain. Protect your teeth from shifting into gaps left by missing teeth. Keep your bite properly aligned for better biting and chewing."
+    },
+    {
+        "Service_name": "Bridges",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "02",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "image_url": "http://www.adcic.co.uk/wp-content/uploads/2015/12/aestheticrestoration.jpg",
+        "description": "Material used to make aesthetic fillings or direct aesthetic restorations is called composite or popularly aesthetic filling. Missing dentine and enamel are recreated with it. By its strength the composite equals to amalgam fillings, it is resistant to wear, releases fluoride preventing from further formation of caries lesions. Direct aesthetic restoration we offer at VivaDens center is one of the most preserving methods of teeth restoration. When making direct aesthetic restoration natural tooth tissues are preserved to the maximum, deep cut preparation is not needed, teeth remain alive, gingiva is not damaged, natural teeth layers are recreated, their translucency and form. Natural tooth is an optimal substance guaranteeing stability, resistance and compatibility with surrounding gingiva and bone structure. Direct aesthetic restorations are done with the precision of fine jeweler,  layer by layer  exactly the same way as teeth tissues developed during evolution, the small details and depth of color are imitated. Usually clients are very satisfied, because that it the most preserving tooth structure restoration method.",
+        "BenefitsAndRisks": "Improve functionality for eating and speaking. Distribute the force of your bite, helping you avoid jaw pain. Protect your teeth from shifting into gaps left by missing teeth. Keep your bite properly aligned for better biting and chewing."
+    },
+    {
+        "Service_name": "Dentures",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "02",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "image_url": "http://www.adcic.co.uk/wp-content/uploads/2015/12/aestheticrestoration.jpg",
+        "description": "Material used to make aesthetic fillings or direct aesthetic restorations is called composite or popularly aesthetic filling. Missing dentine and enamel are recreated with it. By its strength the composite equals to amalgam fillings, it is resistant to wear, releases fluoride preventing from further formation of caries lesions. Direct aesthetic restoration we offer at VivaDens center is one of the most preserving methods of teeth restoration. When making direct aesthetic restoration natural tooth tissues are preserved to the maximum, deep cut preparation is not needed, teeth remain alive, gingiva is not damaged, natural teeth layers are recreated, their translucency and form. Natural tooth is an optimal substance guaranteeing stability, resistance and compatibility with surrounding gingiva and bone structure. Direct aesthetic restorations are done with the precision of fine jeweler,  layer by layer  exactly the same way as teeth tissues developed during evolution, the small details and depth of color are imitated. Usually clients are very satisfied, because that it the most preserving tooth structure restoration method.",
+        "BenefitsAndRisks": "Improve functionality for eating and speaking. Distribute the force of your bite, helping you avoid jaw pain. Protect your teeth from shifting into gaps left by missing teeth. Keep your bite properly aligned for better biting and chewing."
+    },
+    {
+        "Service_name": "Amalgam Filling",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "02",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "image_url": "http://www.adcic.co.uk/wp-content/uploads/2015/12/aestheticrestoration.jpg",
+        "description": "Material used to make aesthetic fillings or direct aesthetic restorations is called composite or popularly aesthetic filling. Missing dentine and enamel are recreated with it. By its strength the composite equals to amalgam fillings, it is resistant to wear, releases fluoride preventing from further formation of caries lesions. Direct aesthetic restoration we offer at VivaDens center is one of the most preserving methods of teeth restoration. When making direct aesthetic restoration natural tooth tissues are preserved to the maximum, deep cut preparation is not needed, teeth remain alive, gingiva is not damaged, natural teeth layers are recreated, their translucency and form. Natural tooth is an optimal substance guaranteeing stability, resistance and compatibility with surrounding gingiva and bone structure. Direct aesthetic restorations are done with the precision of fine jeweler,  layer by layer  exactly the same way as teeth tissues developed during evolution, the small details and depth of color are imitated. Usually clients are very satisfied, because that it the most preserving tooth structure restoration method.",
+        "BenefitsAndRisks": "Improve functionality for eating and speaking. Distribute the force of your bite, helping you avoid jaw pain. Protect your teeth from shifting into gaps left by missing teeth. Keep your bite properly aligned for better biting and chewing."
+    },
+    {
+        "Service_name": "Orthodontics",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "02",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "image_url": "http://www.adcic.co.uk/wp-content/uploads/2015/12/aestheticrestoration.jpg",
+        "description": "Material used to make aesthetic fillings or direct aesthetic restorations is called composite or popularly aesthetic filling. Missing dentine and enamel are recreated with it. By its strength the composite equals to amalgam fillings, it is resistant to wear, releases fluoride preventing from further formation of caries lesions. Direct aesthetic restoration we offer at VivaDens center is one of the most preserving methods of teeth restoration. When making direct aesthetic restoration natural tooth tissues are preserved to the maximum, deep cut preparation is not needed, teeth remain alive, gingiva is not damaged, natural teeth layers are recreated, their translucency and form. Natural tooth is an optimal substance guaranteeing stability, resistance and compatibility with surrounding gingiva and bone structure. Direct aesthetic restorations are done with the precision of fine jeweler,  layer by layer  exactly the same way as teeth tissues developed during evolution, the small details and depth of color are imitated. Usually clients are very satisfied, because that it the most preserving tooth structure restoration method.",
+        "BenefitsAndRisks": "Improve functionality for eating and speaking. Distribute the force of your bite, helping you avoid jaw pain. Protect your teeth from shifting into gaps left by missing teeth. Keep your bite properly aligned for better biting and chewing."
+    },
+    {
+        "Service_name": "Dental Sealants",
+        "others_info": {
+            "is_todays_pick": false,
+            "is_trending": true
+        },
+        "Total_Cost": "10k",
+        "service_id": "02",
+        "rating": 4.5,
+        "title": "Create Your Smile More Beautiful",
+        "structure_img": "https://www.zerodonto.com/en/wp-content/uploads/2014/11/bogdan.001.jpg",
+        "image_url": "http://www.adcic.co.uk/wp-content/uploads/2015/12/aestheticrestoration.jpg",
+        "description": "Material used to make aesthetic fillings or direct aesthetic restorations is called composite or popularly aesthetic filling. Missing dentine and enamel are recreated with it. By its strength the composite equals to amalgam fillings, it is resistant to wear, releases fluoride preventing from further formation of caries lesions. Direct aesthetic restoration we offer at VivaDens center is one of the most preserving methods of teeth restoration. When making direct aesthetic restoration natural tooth tissues are preserved to the maximum, deep cut preparation is not needed, teeth remain alive, gingiva is not damaged, natural teeth layers are recreated, their translucency and form. Natural tooth is an optimal substance guaranteeing stability, resistance and compatibility with surrounding gingiva and bone structure. Direct aesthetic restorations are done with the precision of fine jeweler,  layer by layer  exactly the same way as teeth tissues developed during evolution, the small details and depth of color are imitated. Usually clients are very satisfied, because that it the most preserving tooth structure restoration method.",
+        "BenefitsAndRisks": "Improve functionality for eating and speaking. Distribute the force of your bite, helping you avoid jaw pain. Protect your teeth from shifting into gaps left by missing teeth. Keep your bite properly aligned for better biting and chewing."
+    }
+]
