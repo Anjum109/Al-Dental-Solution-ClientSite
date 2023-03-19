@@ -4,7 +4,7 @@ const AllReviewsList = ({ reviews }) => {
     const { patient, photoURL, review, time } = reviews;
 
     return (
-        <div>
+        <div className='flex items-center justify-center w-75'>
 
             <div className=' grid grid-cols-1 gap-5 mb-5'>
                 <div className="card card-side bg-base-100 shadow-xl mx-5">

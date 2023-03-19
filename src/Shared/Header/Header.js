@@ -17,16 +17,17 @@ const Header = () => {
     const menuItems = <>
         <li className='font-semibold'><Link to='/'>Home</Link></li>
         <li className='font-semibold'><Link to='/blog'>Blog</Link></li>
-        <li className='font-semibold'><Link>{user?.displayName}</Link>
-            <Link>
-                {
-                    user?.photoURL ? <img style={{ height: '40px' }} src={user?.photoURL} alt=""></img> : <FaBeer className='hidden'></FaBeer>
-                }
-            </Link>
-        </li>
+
         {
             user?.email ?
                 <>
+                    <li className='font-semibold'><Link>{user?.displayName}</Link>
+                        <Link>
+                            {
+                                user?.photoURL ? <img style={{ height: '40px' }} src={user?.photoURL} alt=""></img> : <FaBeer className='hidden'></FaBeer>
+                            }
+                        </Link>
+                    </li>
                     <li className='font-semibold'><Link onClick={handleLogOut}>LogOut</Link></li>
                     <li className='font-semibold'><Link to='addServices'>Add Services</Link></li>
                     <li className='font-semibold'><Link to='/myReviews'>My Reviews</Link></li>
@@ -37,7 +38,7 @@ const Header = () => {
     </>
 
     return (
-        <div className="navbar bg-neutral h-20 text-neutral-content">
+        <div className="navbar ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,11 +48,11 @@ const Header = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost normal-case text-xl">
+                <Link to='/' className="normal-case flex justify-center items-center text-xl">
                     <img className='w-10 mr-5' src={logo} alt="" />AM Dental Solution
                 </Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {menuItems}
                 </ul>

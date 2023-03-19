@@ -14,12 +14,12 @@ const AllReview = ({ serviceID }) => {
     console.log(showAllTheReviews);
     return (
         <div>
-            <h1 className='lg:text-3xl text-2xl text-center'> {
+            <h1 className='lg:text-3xl text-blue-600 font-bold mt-5 text-2xl text-center'> {
                 showAllTheReviews.length > 0 ? <p>You have total {showAllTheReviews.length} reviews</p> : <p>No Reviews available</p>
             }</h1>
-            <h1 className='button-54'>All Reviews:</h1>
+            <h1 className='text-5xl text-gray-600 font-bold text-center mt-5'>All Reviews:</h1>
 
-            <div className='mt-12 p-12'>
+            <div className='mt-5 p-12'>
                 {
                     showAllTheReviews.map(reviews => <AllReviewsList
                         key={reviews._id}

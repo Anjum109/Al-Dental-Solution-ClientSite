@@ -57,27 +57,28 @@ const DetailsOfService = () => {
 
 
     return (
-        <div className='grid gap-6 lg:grid-cols-2 grid-cols-1 md:grid-cols-2 mt-12' >
+        <div className='grid gap-6 grid-cols-1 mt-12 max-w-screen-xl mx-auto' >
             {/* card details  */}
-            <div className="card w-full bg-base-100 shadow-xl p-5 m-5">
-                <h2 className="card-title text-center text-5xl">{Service_name}</h2>
-                <p className='card-title lg:text-2xl mb-5'>{title}</p>
-                <figure className="px-10 pt-10">
-                    <img src={image_url} alt="Shoes" className="rounded-xl" />
-                </figure>
-                <p className='pt-5 lg:pt-12 text-justify'>{description}</p>
-                <figure className="px-10 pt-10">
-                    <img src={structure_img} alt="Shoes" className="rounded-xl" />
-                </figure>
-                <p className='pt-5 lg:pt-12'>{BenefitsAndRisks}</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+                <div>
+                    <div><h2 className="text-center font-bold text-gray-600 text-5xl">{Service_name}</h2></div>
+                    <p className='text-center lg:text-2xl mb-5'>{title}</p>
+                    <figure className="px-10 pt-10 flex justify-center items-center">
+                        <img src={image_url} alt="Shoes" className="rounded-xl w-full h-auto" />
+                    </figure>
+                </div>
+                <div>
+                    <p className='p-12 lg:p-0 text-justify'>{description}</p>
+
+                </div>
             </div>
 
 
             {/* review part  */}
             <div className='mt-12'>
-                <h2 className='button-54'>Review Section</h2>
-                <p className='text-center text-2xl'>Give us your valuable review here.</p>
-                <div className='border bg-slate-200 m-12  border-indigo-600 mt-12 p-5 grid grid-cols-1 gap-6'>
+                <h2 className='text-5xl text-gray-600 font-bold text-center'>Review Section</h2>
+                <p className='text-center text-gray-400 text-2xl'>Give us your valuable review here.</p>
+                <div className='bg-gray-100 mx-12 mt-12 p-5 grid grid-cols-1 gap-6'>
                     <form onSubmit={handleReview}>
                         <input type="text" name="name" placeholder="Type Your Name" defaultValue={user?.displayName} className="input input-bordered w-full " />
                         <img name="photoURL" src={user?.photoURL} alt="" className='mx-auto mt-5' />

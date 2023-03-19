@@ -50,7 +50,7 @@ const AddServices = () => {
     return (
         <div>
             <div className='mt-12 bg-neutral-600 p-5 grid grid-cols-1 gap-6'>
-                <h1 className='text-4xl text-center mb-12'>Add Your New Service</h1>
+                <h1 className='text-5xl text-gray-600 font-bold text-center mb-12'>Add Your New Service</h1>
 
                 <form className='lg:mx-28' onSubmit={handleAddService}>
                     <input type="text"
@@ -81,7 +81,7 @@ const AddServices = () => {
                         type="text"
                         placeholder="Type the service BenefitsAndRisks"
                         className="input mb-5 input-bordered w-full h-36" />
-                    <div>                    <button type="submit" onClick={notify} className="input text-black input-bordered w-full" value="Add Service">
+                    <div>                    <button type="submit" onClick={notify} className="input text-gray-200 font-bold input-bordered w-full bg-slate-600 hover:bg-gray-800 hover:text-white " value="Add Service">
                         Submit</button>    <ToastContainer /></div>
 
                 </form>

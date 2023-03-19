@@ -9,7 +9,9 @@ const AnotherPartOfHome = () => {
         <div>
             <div className="min-h-screen bg-base-200 mt-12">
                 <div className="flex flex-col lg:flex-row p-12">
-                    <img src={image1} alt="" className="max-w-sm rounded-lg shadow-2xl" />
+                    <div className='flex justify-center items-center'>
+                        <img src={image1} alt="" className="max-w-sm rounded-lg shadow-2xl" />
+                    </div>
                     <div className='lg:ml-12 lg:mt-5 sm:mt-12'>
                         <h1 className="lg:text-5xl text-2xl mt-5 font-bold"> BRUSH YOUR TEETH PROPERLY</h1>
                         <p className="py-6">Take Care of your teeth by brushing, flossing, rinsing and they will take care of you.</p>
